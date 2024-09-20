@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>mte 481 fydp</title>
+</head>
+<body>
+    <header>
+        <h1>group 15 weekly progress updates</h1>
+        <nav>
+            <ul>
+                <li><a href="weekly_progress_files/week_1.html">Week 1 (sep16-22): Identifying Need</a></li>
+                <li><a href="weekly_progress_files/week_2.html">Week 2 (sep23-29): Problem Definition, Criteria & Constraints</a></li>
+                <li><a href="weekly_progress_files/week_3.html">Week 3 (sep30-oct6): Patents & Solutions</a></li>
+                <li><a href="weekly_progress_files/week_4.html">Week 4 (oct7-20): Optimal Solution</a></li>
+                <li><a href="weekly_progress_files/week_5.html">Week 5 (oct21-nov3): Preliminary Design Presentation</a></li>
+                <li><a href="weekly_progress_files/week_6.html">Week 6 (nov4-10): Detailed Design</a></li>
+                <li><a href="weekly_progress_files/week_7.html">Week 7 (nov11-24): Design Verification</a></li>
+                <li><a href="weekly_progress_files/week_8.html">Week 8 (nov25-dec1): Final Design Presentation</a></li>
+                <li><a href="weekly_progress_files/week_9.html">Week 9 (dec2-...): Final Report, Log, Webpage Update</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <script>
+        // Get the existing ul element
+        const navList = document.querySelector('nav ul');
+
+        const existingLinks = navList.querySelectorAll('li a');
+        existingLinks.forEach(link => {
+          //Set white-space property to nowrap
+          link.style.whiteSpace = 'nowrap';
+
+          //making first letter bold
+          link.innerHTML = link.textContent.replace(/^(.)/, '<span style="font-weight: bold;">$1</span>');
+        });
+      </script>
+
+<footer>
+    <p>&copy; 2025 University of Waterloo.</p>
+</footer>
+</body>
+</html>

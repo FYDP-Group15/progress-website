@@ -1,0 +1,37 @@
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #fff5ee; /* PaleVioletRed color */
+}
+
+header {
+    background-color: #fff5ee;
+    color: #333;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header a{
+    text-decoration: none; /* Remove underlines from links */
+    color: #333; /* Set link color */
+}
+
+section p{
+    margin: 10px;
+    text-indent: 35px;
+}
+footer{
+    display: none;
+}
+/*if I want to add a footer back
+footer {
+    background-color: #f5f5dc;
+    color: #333;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+*/
