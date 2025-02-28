@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="linked_styles.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+    <title>mte 482 | group 15</title>
+</head>
+<body>
+    <header>
+        <a href="../index.html">
+            <h1>fydp group 15</h1>
+        </a>
+        <h2>week 15 | Bluetooth Communication Configuration</h2>
+        <h3>february 24 - march 2</h3>
+    </header>
+
+    <section>
+        <p>
+            There was a confusion about bluetooth transmission between the T.O.F sensor and the arduino. The design was originally conceptualized such that there 
+            was only one Hm-10 module used and it would be apart of the circuit which houses the T.O.F sensor.  There were then concerns that in order for the T.O.F
+            to connect to the arduino wirelessly there would need to be an HM-10 connected to both. A solution was found where the bluetooth scan template in the 
+            arduinoBLE library that could scan for bluetooth signals in its vicinity. This constantly scans and outputs the addresses + RSSI values of the devices in
+            its vicininty. This test was run and all the values were stored in an excel file. The most frequent values were determined and tested to verify what the 
+            unique address of the HM-10 being used was for later configuration.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; University of Waterloo. 2025.</p>
+    </footer>
+</body>
+</html>
